@@ -4,8 +4,8 @@ EXPOSE 8080
  
 ENV APP_HOME /usr/src/app
 
-COPY target/secretsanta-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
+COPY target/secretsanta-0.0.1-SNAPSHOT.jar $APP_HOME/secretsanta.jar
 
 WORKDIR $APP_HOME
 
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","secretsanta.jar"]
