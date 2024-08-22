@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('git-checkout') {
             steps {
-                git 'https://github.com/bhaskar/secretsanta-generator.git'
+                git 'https://github.com/bhaskar2024958/secretsanta-generator-master'
             }
         }
 
